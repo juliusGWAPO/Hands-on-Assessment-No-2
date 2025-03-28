@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;   
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --bg-color: #080808;
+    --second-bg-color: #131313;
+    --text-color: #fff;
+    --main-color: #828385;
+}
+
+html{
+    font-size: 55%;
+    overflow-x: hidden;
+}
+.header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 4rem 8% 4rem;
+        background: rgb(34, 33, 33);
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        z-index: 3;
+        
+}
+.navbar .myP {
+    position: relative;
+    left: -134rem;
+    color: var(--text-color);
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.navbar a {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-left: 3.4rem;
+}
+
+.hero-s {
+    min-height: 40vh;
+    width: 100vw;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-s .h1 {
+    color: var(--text-color);
+    position: absolute;
+    font-weight: 700;
+    font-size: 4.9rem;
+    margin-top: 9rem;
+}
+.hero-s .p {
+    font-size: 1.5rem;
+    line-height: 12px;
+    color: var(--text-color);
+    margin-top: 33rem;
+}
+.about {
+    background: var(--bg-color);
+    min-height: 70vh;
+    width: 100vw;
+}
